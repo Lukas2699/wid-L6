@@ -88,6 +88,7 @@ function MainformComponent() {
       )}
 
       <div>
+        <br></br>
         <Button
           variant="contained"
           disabled={
@@ -103,6 +104,7 @@ function MainformComponent() {
           Now Transform
         </Button>
       </div>
+      <br></br>
 
       {transformation === 2 && result.length > 0 && (
         <LvresultComponent
