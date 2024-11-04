@@ -100,7 +100,7 @@ function MainformComponent() {
             fetchResult();
           }}
         >
-          Transformieren
+          Now Transform
         </Button>
       </div>
 

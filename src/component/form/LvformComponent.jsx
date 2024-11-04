@@ -13,14 +13,14 @@ function LvformComponent({ east, setEast, north, setNorth }) {
     <>
       <TextField
         id="outlined-basic"
-        label="Ost-Koordinate"
+        label="east-coordinate"
         variant="outlined"
         value={east}
         onChange={(event) => onEastChange(event.target.value)}
       />
       <TextField
         id="outlined-basic"
-        label="Nord-Koordinate"
+        label="north-coordinate"
         variant="outlined"
         onChange={(event) => onNorthChange(event.target.value)}
       />

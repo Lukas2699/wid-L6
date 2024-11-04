@@ -4,7 +4,7 @@ import MainformComponent from "./component/form/MainformComponent";
 function App() {
   return (
     <>
-      <Typography variant="h1">Koordinaten App</Typography>
+      <Typography variant="h3">Koordinaten Tranformer App</Typography>
       <MainformComponent></MainformComponent>
     </>
   );

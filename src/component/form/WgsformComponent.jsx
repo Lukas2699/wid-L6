@@ -13,14 +13,14 @@ function WgsformComponent({ xcoord, setXcoord, ycoord, setYcoord }) {
     <>
       <TextField
         id="outlined-basic"
-        label="X-Koordinate - Latitude"
+        label="X-coordinate - Latitude"
         variant="outlined"
         value={xcoord}
         onChange={(event) => onXChange(event.target.value)}
       />
       <TextField
         id="outlined-basic"
-        label="Y-Koordinate- Longitude"
+        label="Y-coordinate - Longitude"
         variant="outlined"
         value={ycoord}
         onChange={(event) => onYChange(event.target.value)}

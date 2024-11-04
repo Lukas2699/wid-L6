@@ -3,17 +3,17 @@ import { TextField, Typography } from "@mui/material";
 function wgsresultComponent({ xcoordinate, ycoordinate }) {
   return (
     <>
-      <Typography variant="h2">Resultat in WGS84</Typography>
+      <Typography variant="h4">Result in WGS84</Typography>
       <TextField
         id="outlined-basic"
-        label="X-Koordinate - Latitude"
+        label="X-coordinate - Latitude"
         variant="outlined"
         value={xcoordinate}
         disabled
       />
       <TextField
         id="outlined-basic"
-        label="Y-Koordinate - Longitude"
+        label="Y-coordinate - Longitude"
         variant="outlined"
         value={ycoordinate}
         disabled
